@@ -1,0 +1,17 @@
+body {
+    background-color: #102924;
+    position: relative;
+    width: 1920;
+    height: 1080; 
+}
+
+.rectangle {
+    background-color: #051F20;
+    width: 1427;
+    height: 895;
+    position: relative;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    right: auto;
+}
