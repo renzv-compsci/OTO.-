@@ -1,0 +1,91 @@
+body {
+    overflow: hidden;
+}
+
+header {
+    position: relative;
+    padding: 10px;
+}
+
+.logoCont {
+    position: relative;
+}
+
+.logo {
+    margin-top: 39px;
+    margin-left: 58px;
+    width: auto;
+    height: 73px; 
+}
+
+.brand {
+    font-family: 'Poppins';
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+.logoPos {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    gap: 374px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-right: 46px;
+    margin-top: -85px;
+}
+
+nav ul a {
+    font-family: 'Poppins';
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 35px;;
+}
+
+.text1 h1 {
+    position: relative;
+    font-family: 'Poppins';
+    color: black;
+    font-size: 128px;
+    margin-left: 58px;
+    margin-top: 296px;
+}
+
+.containerCirc {
+    display: flex;
+    flex-direction: column;
+}
+.circle1 {
+    position: relative;
+    background-color: #A8A7A7;
+    border-radius: 50%;
+    width: 1170px;
+    height: 1131px;
+    margin-top: -640px;
+    margin-left: 1213px;
+}
+
+.circle2 {
+    position: absolute;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    width: 1219px;
+    height: 1244px;
+    margin-top: -600px;
+    margin-left: 1250px;
+}
+
+
