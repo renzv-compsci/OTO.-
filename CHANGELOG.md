@@ -1,9 +1,14 @@
 # Update Log
 
-## [Version 1] - 2025 -03-19
+## [Version 1] - 2025 -04-01
 
 ### Added
-- Main file for the HTML and CSS
+- OTO. page html and css, this serves as my landing page for the todo website
+
+### Future Implementations
+- Will finish the remaining pages (aboutPage, homePage, taskPage, and userPage)
+- Will add css hover to make the website more alive 
+- Will add JavaScript for functionality 
 
 ### Issues
-- Having a hard time positioning the divs in relation  with my Figma design
+- No issues for now 
