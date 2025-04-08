@@ -1,6 +1,6 @@
 # Update Log
 
-## [Version 1] - 2025 -04-01
+## [Version 1] - 2025-04-01
 
 ### Added
 - OTO. page html and css, this serves as my landing page for the todo website
@@ -12,3 +12,25 @@
 
 ### Issues
 - No issues for now 
+
+## [Version 1.1] - 2025-04-08
+
+### Added
+- Added images to `/ToDoWeb/Image/` directory: `plus.png`, `delete.png`, and `square.png`
+
+### Updated
+- Updated layout and styling in the following:
+  - `ToDoWeb/homePage/homePage.html`
+  - `ToDoWeb/homePage/homePage.css`
+  - `ToDoWeb/otoPage/otoPage.html`
+  - `ToDoWeb/otoPage/otoPage.css`
+
+### Future Implementations
+- Will implement responsive design adjustments
+- Will finish userPage, taskPage, and aboutPage
+- Plan to integrate JavaScript interactions for task management features
+- Plan to add a simple backend for the website
+- Plan to add a chatbox that the user can use to submit their tickets, and will display in my email
+
+### Issues
+- No current issues
