@@ -18,6 +18,7 @@ header {
     height: 73px; 
 }
 
+
 .brand {
     font-family: 'Poppins';
     color: black;
@@ -48,19 +49,27 @@ nav ul li {
 
 nav ul a {
     font-family: 'Poppins';
-    color: black;
+    color: black;   
     text-decoration: none;
     font-size: 40px;
     font-weight: bold;
-    margin-top: 35px;;
+    margin-right: 70px;
+    box-sizing: border-box;
+    padding: 10px;
+    transition: 0.4s;
 }
 
-.text1 h1 {
-    position: relative;
+ul a:hover {
+    background-color: #dadada;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.type {
+    font-size: 128px;
     font-family: 'Poppins';
     color: black;
-    font-size: 128px;
-    margin-left: 58px;
+    margin-left: 128px;
     margin-top: 296px;
 }
 
@@ -68,6 +77,7 @@ nav ul a {
     display: flex;
     flex-direction: column;
 }
+
 .circle1 {
     position: relative;
     background-color: #A8A7A7;
@@ -87,5 +97,3 @@ nav ul a {
     margin-top: -600px;
     margin-left: 1250px;
 }
-
-
