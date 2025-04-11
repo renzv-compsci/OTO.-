@@ -42,7 +42,8 @@
 ### Future Implementations
 - Will finish the log in static page 
 - Will finish the task page 
-- Will finish the userpage 
+- Will finish the userpage
+- And implement JS for the behavior of the website 
 
 ### Issues 
 - No current issues
