@@ -29,8 +29,20 @@
 - Will implement responsive design adjustments
 - Will finish userPage, taskPage, and aboutPage
 - Plan to integrate JavaScript interactions for task management features
-- Plan to add a simple backend for the website
-- Plan to add a chatbox that the user can use to submit their tickets, and will display in my email
 
 ### Issues
+- No current issues
+
+## [Version 1.2] - 2025-04-12
+
+### Added
+- Added log in page, though this website is just static, and I will not add any backend for it
+- Changed the format of the landing page
+
+### Future Implementations
+-Will finish the log in static page 
+-Will finish the task page 
+-Will finish the userpage 
+
+### Issues 
 - No current issues
