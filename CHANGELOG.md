@@ -40,9 +40,9 @@
 - Changed the format of the landing page
 
 ### Future Implementations
--Will finish the log in static page 
--Will finish the task page 
--Will finish the userpage 
+- Will finish the log in static page 
+- Will finish the task page 
+- Will finish the userpage 
 
 ### Issues 
 - No current issues
