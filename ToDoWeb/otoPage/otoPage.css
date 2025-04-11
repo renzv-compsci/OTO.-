@@ -37,7 +37,7 @@ header {
 
 nav ul {
     list-style-type: none;
-    gap: 374px;
+    gap: 300px;
     display: flex;
     justify-content: flex-end;
 }
@@ -69,8 +69,8 @@ ul a:hover {
     font-size: 128px;
     font-family: 'Poppins';
     color: black;
-    margin-left: 128px;
-    margin-top: 296px;
+    margin-left: 50px;
+    margin-top: 200px;
 }
 
 .containerCirc {
@@ -82,10 +82,10 @@ ul a:hover {
     position: relative;
     background-color: #A8A7A7;
     border-radius: 50%;
-    width: 1170px;
-    height: 1131px;
+    width: 1220px;
+    height: 1200px;
     margin-top: -640px;
-    margin-left: 1213px;
+    margin-left: 1200px;
 }
 
 .circle2 {
@@ -96,4 +96,27 @@ ul a:hover {
     height: 1244px;
     margin-top: -600px;
     margin-left: 1250px;
+}
+
+.text2 {
+    display: flex;
+    width: 209px;
+    height: 65px;
+    border-radius: 30px;
+    background-color: #D9D9D9;
+    margin-left: 50px;
+    margin-top: -60px;
+}
+
+.type1 {
+    color: black;
+    font-size: 32px;
+    font-family: 'Poppins, ExtraLight';
+    font-weight: normal;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.arrowWid {
+    width: px;
 }
