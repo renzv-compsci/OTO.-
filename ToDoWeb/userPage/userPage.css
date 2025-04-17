@@ -1,0 +1,79 @@
+.box1 {
+    display: flex;
+    background-color: #D9D9D9;
+    width: 1772px;
+    height: 865px;
+    border-radius: 30px;
+    margin-top: -10px;
+    margin-left: 174px;
+}
+
+.innerBox {
+    display: flex;
+    background-color:  #BABABA;
+    width: 362px;
+    height: 450px;
+    border-radius: 15px;
+    margin-left: 34px;
+    margin-top: 38px;
+}
+
+.userPic {
+    width: 325px;
+    height: 406px;
+    border-radius: 20px;
+    margin-top: 22px;
+    margin-left: 19px;
+}
+
+.nameSec h2 {
+    display: flex;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.nameSec h3 {
+    position: absolute;
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 40px;
+    margin-left: 190px;
+    margin-top: -92px;
+}
+
+.emailSec h2 {
+    display: flex;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 40px;
+    margin-left: -127px;
+    margin-top: 120px;
+}
+
+.emailSec h3 {
+    position: absolute;
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 40px;
+    margin-top: -93px;
+}
+
+.userSec h2 {
+    display: flex;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 40px;
+    margin-left: -127px;
+    margin-top: 205px;
+}
+
+.userSec h3 {
+    position: absolute;
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 40px;
+    margin-top: -93px;
+    margin-left: 95px;
+}
