@@ -1,3 +1,14 @@
+@keyframes popIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
 .aboutBox {
     background-color: #D9D9D9;
     height: 858px;
@@ -8,6 +19,8 @@
     border-radius: 30px;
     margin-left: 510px;
     box-shadow: 10px 10px #B2B2B2;
+    position: relative; 
+    animation: popIn 1s ease-out forwards;
 }
 
 .aboutBox h1 {
