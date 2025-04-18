@@ -47,3 +47,13 @@
 
 ### Issues 
 - No current issues
+
+## [Version 1.3] = 2025-04-19
+
+### Added 
+- Day tasks feature where, when you clicked the day, it will have pop up of your to do's
+- Added the format of day feature in my homePage
+
+### Future Implementations 
+- Will add JavaScript for functionality
+- And add functions like delete tasks, add tasks, and input date
