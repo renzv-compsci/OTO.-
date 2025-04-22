@@ -93,14 +93,6 @@
     margin-left: 15px;
 }
 
-.taskHeader .dateBox {
-    background-color: #B2B2B2;
-    height: 57px;
-    width: 163px;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
 .taskHeader .close {
     cursor: pointer;
     border: none;
@@ -128,35 +120,26 @@ hr {
     font-family: 'Poppins';
     font-weight: 200;
     margin-left: 40px;
+    margin-top: 20px;
 }
 
-.taskBody .taskBox { 
+input[type=task] { 
+    border: none;
+    outline: none;
     position: absolute;
     background-color: #B2B2B2;
     height: 91px;
     width: 451px;
     border-radius: 20px;
     cursor: pointer;
-    margin-left: 78px;
-    margin-top: 150px;
+    margin-left: 120px;
+    margin-top: 120px;
 }
 
-.taskBody .del {
-    position: absolute;
-    height: 49px;
-    width: 49px;
-    margin-top: 170px;
-    margin-left: 610px;
-    cursor: pointer;
-}
-
-.taskBody .square {
-    position: relative;
-    height: 50px;
-    width: 44px;
-    margin-left: 559px;
-    margin-top: 170px;
-    cursor: pointer;
+input[id=intTasks] {
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 35px;
 }
 
 #overlay {
@@ -174,4 +157,62 @@ hr {
 #overlay.active {
     opacity: 1;
     pointer-events: all;
+}
+
+input[type=text] {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 163px;
+    height: 57px;
+    background-color: #B2B2B2;
+}
+
+input[id=intDate] {
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 25px;
+    
+}
+
+.taskBody .taskBox {
+    background-color: #B2B2B2;
+    height: 91px;
+    width: 451px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 120px;
+    margin-top: 120px;
+}
+
+.otherUl ul li {
+    list-style: none;
+    font-size: 40px;
+    font-family: 'Poppins';
+    padding: 25px 0px 0px 90px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.otherUl ul li::before {
+    content: '';    
+    position: absolute;
+    background-image: url(/ToDoWeb/Image/square.png);
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    background-position: center;
+    top: 38px;
+    left: 25px;
+}
+
+ul li.checked {
+    color: #555;
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    background-image: url(/ToDoWeb/Image/check-box.png);
 }

@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="/ToDoWeb/Image/finalOto.png">
     <link rel="stylesheet" href="/ToDoWeb/otoPage/otoPage.css">
     <link rel="stylesheet" href="homePage.css">
-    <script src="homePage.js"></script>
+    <script defer src="homePage.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -26,7 +26,8 @@
             </nav>
         </div>
     </header>
-        <button class="button">
+
+        <button data-tasks-target="#tasks" class="button">
             <h1>Monday</h1>
         </button>
 
@@ -42,17 +43,26 @@
             <div class="taskHeader">
                 <div class="day">Monday</div>
                 <div class="date">Date:</div>
-                <div class="dateBox"></div>
-                <button class="close">&times;</button>
+                <input type="text" id="intDate" placeholder="Enter Date" maxlength="8">
+                <button data-close-button class="close">&times;</button>
                 <hr>
             </div>
-            <div class="taskBody">
+            <div class="taskBody"> 
+                <div class="add" id="add"></div>
                 <h2>Today's Tasks:</h2>
-                <div class="taskBox"></div>
-                <img src="/ToDoWeb/Image/square.png" alt="squareLog" class="square">
-                <img src="/ToDoWeb/Image/delete.png" alt="delLog" class="del">
+                <!-- <div class="taskBox" id="addTask"></div> -->
+                <input type="task" id="intTasks" placeholder="Add Task">
+                <!-- <img src="/ToDoWeb/Image/square.png" alt="squareLog" class="square">
+                <img src="/ToDoWeb/Image/delete.png" alt="delLog" class="del"> -->
+            </div>
+            <div class="otherUl">
+                <ul id="taskList">
+                    <!-- <li class="checked">Task 1</li>
+                    <li>Task 1</li>
+                    <li>Task 1</li> -->
+                </ul>
             </div>
         </div>
-        <div  id="overlay"></div>
+        <div id="overlay"></div>
 </body>
 </html>
