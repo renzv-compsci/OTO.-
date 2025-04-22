@@ -48,7 +48,7 @@
 ### Issues 
 - No current issues
 
-## [Version 1.3] = 2025-04-19
+## [Version 1.3] - 2025-04-19
 
 ### Added 
 - Day tasks feature where, when you clicked the day, it will have pop up of your to do's
@@ -57,3 +57,12 @@
 ### Future Implementations 
 - Will add JavaScript for functionality
 - And add functions like delete tasks, add tasks, and input date
+
+  ## [Version 1.4] - 2025-04-22
+
+  ### Added
+  - Added input box for each div that you will typed on
+  - Added functionalities such as add tasks, remove tasks, and checked tasks
+ 
+  ### Issues
+  - Still fixing the functionalities in JS
