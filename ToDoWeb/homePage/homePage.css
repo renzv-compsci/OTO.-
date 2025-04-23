@@ -216,3 +216,20 @@ ul li.checked {
 ul li.checked::before {
     background-image: url(/ToDoWeb/Image/check-box.png);
 }
+
+ul li span {
+    position: absolute;
+    right: 0;
+    top: 38px;
+    left: 570px;
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+
+ul li span:hover {
+    background-color: #B2B2B2;
+    border-radius: 10px;
+}
