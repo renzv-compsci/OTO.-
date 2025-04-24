@@ -27,23 +27,40 @@
         </div>
     </header>
 
-        <button data-tasks-target="#tasks" class="button">
+        <button data-tasks-target="#mon" class="button">
             <h1>Monday</h1>
         </button>
 
-        <button class="button1">
-                <img src = "/ToDoWeb/Image/plus.png" alt="plusB">
+        <button data-tasks-target="#tues" class="button">
+            <h1>Tuesday</h1>
         </button>
 
-        <button class="button2">  
-                <img src = "/ToDoWeb/Image/delete.png" alt ="delB">
+        <button data-tasks-target="#wed" class="button1">
+            <h1>Wednesday</h1>
         </button>
 
-        <div class="tasks" id="tasks">
-            <div class="taskHeader">
+        <button data-tasks-target="#thurs" class="button1">
+            <h1>Thursday</h1>
+        </button>
+
+        <button data-tasks-target="#fri" class="button2">
+            <h1>Friday</h1>
+        </button>
+
+        <button data-tasks-target="#sat" class="button2">
+            <h1>Saturday</h1>
+        </button>
+
+        <button data-tasks-target="#sun" class="button2">
+            <h1>Sunday</h1>
+        </button>
+
+
+        <div class="tasks" id="mon">
+            <div id="monday" class="taskHeader">
                 <div class="day">Monday</div>
                 <div class="date">Date:</div>
-                <input type="text" id="intDate" placeholder="Enter Date" maxlength="8">
+                <input type="date" id="intDate">
                 <button data-close-button class="close">&times;</button>
                 <hr>
             </div>
@@ -51,12 +68,10 @@
                 <div class="add" id="add"></div>
                 <h2>Today's Tasks:</h2>
                 <div class="taskBox" id="addTask"></div>
-                <input type="task" id="intTasks" placeholder="Add Task">
-                <!-- <img src="/ToDoWeb/Image/square.png" alt="squareLog" class="square">
-                <img src="/ToDoWeb/Image/delete.png" alt="delLog" class="del"> -->
+                <input type="task"class="intTasks" id="intTasks" placeholder="Add Task">
             </div>
             <div class="otherUl">
-                <ul id="taskList">
+                <ul class= "taskList" id="taskList">
                     <!-- <li class="checked">Task 1</li>
                     <li>Task 1</li>
                     <li>Task 1</li> -->
@@ -64,5 +79,143 @@
             </div>
         </div>
         <div id="overlay"></div>
+
+        <div class="tasks" id="tues">
+            <div id="monday" class="taskHeader">
+                <div class="day">Tuesday</div>
+                <div class="date">Date:</div>
+                <input type="date" id="intDate">
+                <button data-close-button class="close">&times;</button>
+                <hr>
+            </div>
+            <div class="taskBody"> 
+                <div class="add" id="add"></div>
+                <h2>Today's Tasks:</h2>
+                <div class="taskBox" id="addTask"></div>
+                <input type="task" class="intTasks" id="intTasks" placeholder="Add Task">
+            </div>
+            <div class="otherUl">
+                <ul class= "taskList" id="taskList">
+                    <!-- <li class="checked">Task 1</li>
+                    <li>Task 1</li>
+                    <li>Task 1</li> -->
+                </ul>
+            </div>
+        </div>
+
+        <div class="tasks" id="wed">
+            <div id="monday" class="taskHeader">
+                <div class="day">Wednesday</div>
+                <div class="date">Date:</div>
+                <input type="date" id="intDate">
+                <button data-close-button class="close">&times;</button>
+                <hr>
+            </div>
+            <div class="taskBody"> 
+                <div class="add" id="add"></div>
+                <h2>Today's Tasks:</h2>
+                <div class="taskBox" id="addTask"></div>
+                <input type="task" class="intTasks" id="intTasks" placeholder="Add Task">
+            </div>
+            <div class="otherUl">
+                <ul class= "taskList" id="taskList">
+                    <!-- <li class="checked">Task 1</li>
+                    <li>Task 1</li>
+                    <li>Task 1</li> -->
+                </ul>
+            </div>
+        </div>
+
+        <div class="tasks" id="thurs">
+            <div id="monday" class="taskHeader">
+                <div class="day">Thursday</div>
+                <div class="date">Date:</div>
+                <input type="date" id="intDate">
+                <button data-close-button class="close">&times;</button>
+                <hr>
+            </div>
+            <div class="taskBody"> 
+                <div class="add" id="add"></div>
+                <h2>Today's Tasks:</h2>
+                <div class="taskBox" id="addTask"></div>
+                <input type="task" class="intTasks" id="intTasks" placeholder="Add Task">
+            </div>
+            <div class="otherUl">
+                <ul class= "taskList" id="taskList">
+                    <!-- <li class="checked">Task 1</li>
+                    <li>Task 1</li>
+                    <li>Task 1</li> -->
+                </ul>
+            </div>
+        </div>
+
+        <div class="tasks" id="fri">
+            <div id="monday" class="taskHeader">
+                <div class="day">Friday</div>
+                <div class="date">Date:</div>
+                <input type="date" id="intDate">
+                <button data-close-button class="close">&times;</button>
+                <hr>
+            </div>
+            <div class="taskBody"> 
+                <div class="add" id="add"></div>
+                <h2>Today's Tasks:</h2>
+                <div class="taskBox" id="addTask"></div>
+                <input type="task" class="intTasks" id="intTasks" placeholder="Add Task">
+            </div>
+            <div class="otherUl">
+                <ul class= "taskList" id="taskList">
+                    <!-- <li class="checked">Task 1</li>
+                    <li>Task 1</li>
+                    <li>Task 1</li> -->
+                </ul>
+            </div>
+        </div>
+
+        <div class="tasks" id="sat">
+            <div id="monday" class="taskHeader">
+                <div class="day">Saturday</div>
+                <div class="date">Date:</div>
+                <input type="date" id="intDate">
+                <button data-close-button class="close">&times;</button>
+                <hr>
+            </div>
+            <div class="taskBody"> 
+                <div class="add" id="add"></div>
+                <h2>Today's Tasks:</h2>
+                <div class="taskBox" id="addTask"></div>
+                <input type="task" class="intTasks" id="intTasks" placeholder="Add Task">
+            </div>
+            <div class="otherUl">
+                <ul class= "taskList" id="taskList">
+                    <!-- <li class="checked">Task 1</li>
+                    <li>Task 1</li>
+                    <li>Task 1</li> -->
+                </ul>
+            </div>
+        </div>
+
+        <div class="tasks" id="sun">
+            <div id="monday" class="taskHeader">
+                <div class="day">Sunday</div>
+                <div class="date">Date:</div>
+                <input type="date" id="intDate">
+                <button data-close-button class="close">&times;</button>
+                <hr>
+            </div>
+            <div class="taskBody"> 
+                <div class="add" id="add"></div>
+                <h2>Today's Tasks:</h2>
+                <div class="taskBox" id="addTask"></div>
+                <input type="task" class="intTasks" id="intTasks" placeholder="Add Task">
+            </div>
+            <div class="otherUl">
+                <ul class= "taskList" id="taskList">
+                    <!-- <li class="checked">Task 1</li>
+                    <li>Task 1</li>
+                    <li>Task 1</li> -->
+                </ul>
+            </div>
+        </div>
 </body>
 </html>

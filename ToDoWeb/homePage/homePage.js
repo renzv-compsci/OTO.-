@@ -1,9 +1,8 @@
 const openTasksButton = document.querySelectorAll('[data-tasks-target]')
 const closeTasksButton = document.querySelectorAll('[data-close-button]')
-const taskList = document.getElementById('taskList')
 const overlay = document.getElementById('overlay')
-const addTask = document.getElementById("intTasks")
-const taskLists = document.getElementById("taskList")
+
+
 
 openTasksButton.forEach(button => {
     button.addEventListener('click', () => {
@@ -31,31 +30,46 @@ function closeTasks(tasks) {
     overlay.classList.remove('active')
 }
 
-addTask.addEventListener('keypress', function(event) {
-    if(event.key === "Enter") {
-        event.preventDefault();
+document.addEventListener('keydown', function(event) {
+    if (event.key === "Enter") {
+        const activeTasks = document.querySelector('.tasks.active');
+        if (!activeTasks) return;
 
-        const inputTask = addTask.value.trim();
+        const addTaskInput = activeTasks.querySelector('.intTasks');
+        const taskList = activeTasks.querySelector('.taskList');
+
+        const inputTask = addTaskInput.value.trim();
 
         if (inputTask !== "") {
             let li = document.createElement('li');
             li.innerHTML = inputTask;
-            taskLists.appendChild(li);
+            taskList.appendChild(li);
+
             let span = document.createElement('span'); 
             span.innerHTML = "\u00d7";
             li.appendChild(span);
-            addTask.value = "";
+
+            addTaskInput.value = "";
         } else {
             alert("Write something");
         }
-        
-    }
-})
 
-taskLists.addEventListener('click', function(e) {
-    if(e.target.tagName === 'LI'){
-        e.target.classList.toggle('checked')
-    } else if(e.target.tagName === 'SPAN'){
+        event.preventDefault();
+    }
+});
+
+
+document.addEventListener('click', function(e) {
+    const activeTasks = document.querySelector('.tasks.active');
+    if (!activeTasks) return;
+
+    const taskList = activeTasks.querySelector('.taskList');
+
+    if (!taskList.contains(e.target)) return;
+
+    if (e.target.tagName === 'LI') {
+        e.target.classList.toggle('checked');
+    } else if (e.target.tagName === 'SPAN') {
         e.target.parentElement.remove();
     }
-})
+});
